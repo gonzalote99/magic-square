@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>magic square</title>
+</head>
+<body>
+  <h1 style="color: dodgerblue;">magic square calculator</h1>
+  <h4>enter date birth</h4>
+ 
+  <input class="dates" list="date" type="number" id="dd" placeholder="enter date" required > 
+  <datalist id="date">
+     <option value="1" >
+     <option value="2" >
+     <option value="3" >
+     <option value="4" >
+     <option value="5" >
+     <option value="6" >
+     <option value="7" >
+     <option value="8" > 
+     <option value="9" > 
+     <option value="10" > 
+     <option value="11" > 
+     <option value="12" > 
+     <option value="13" > 
+     <option value="14" > 
+     <option value="15" > 
+     <option value="16" > 
+     <option value="17" > 
+     <option value="18" > 
+     <option value="19" > 
+     <option value="20" > 
+     <option value="21" > 
+     <option value="22" > 
+     <option value="23" > 
+     <option value="24" > 
+     <option value="25" > 
+     <option value="26" > 
+     <option value="27" > 
+     <option value="28" > 
+     <option value="29" > 
+     <option value="30" > 
+      <option value="31" > 
+    
+     
+  </datalist>
+
+  
+  <input class="months" list="month" type="number" id="mm" placeholder="enter month" required > 
+  <datalist id="month">
+     <option value="1" >
+     <option value="2" >
+     <option value="3" >
+     <option value="4" >
+     <option value="5" >
+     <option value="6" >
+     <option value="7" >
+     <option value="8" >
+     <option value="9" >
+     <option value="10" >
+     <option value="11" >
+     <option value="12" >
+     
+  </datalist>
+  
+  <input class="years" list="year" type="number" id="yyyy" placeholder="enter year" required > 
+  <datalist id="year">
+   <option value="2020">
+   <option value="2019">
+   <option value="2018">
+   <option value="2017">
+   <option value="2016">
+   <option value="2015">
+   <option value="2014">
+   <option value="2013">
+   <option value="2012">
+   <option value="2011">
+   <option value="2010">
+   <option value="2009">
+   <option value="2008">
+   <option value="2007">
+   <option value="2006">
+   <option value="2005">
+   <option value="2004">
+   <option value="2003">
+   <option value="2002">
+   <option value="2001">
+   <option value="2000">
+   <option value="1999">
+
+    
+    
+  </datalist>
+  <br><br>
+
+  <button onclick="magicsquare()">submit</button> <br><br>
+  <table>
+   <tr>
+    <td id="r1c1" bgcolor="#6eff61"></td>
+    <td id="r1c2" bgcolor="#fbff1f"></td>
+    <td id="r1c3" bgcolor="#ff75ac"></td>
+    <td id="r1c4" bgcolor="#ff8f1f"></td>
+   </tr>
+   <tr>
+    <td id="r2c1" bgcolor="#9aff1f"></td>
+    <td id="r2c2" bgcolor="#f47cfc"></td>
+    <td id="r2c3" bgcolor="#1ffff0"></td>
+    <td id="r2c4" bgcolor="#1f96ff"></td>
+   </tr>
+   <tr>
+    <td id="r3c1" bgcolor="#ff757a"></td>
+    <td id="r3c2" bgcolor="#5b7bfc"></td>
+    <td id="r3c3" bgcolor="#a0f76d"></td>
+    <td id="r3c4" bgcolor="#57ff1f"></td>
+   </tr>
+   <tr>
+    <td id="r4c1" bgcolor="#6df7c7"></td>
+    <td id="r4c2" bgcolor="#f6ff4d"></td>
+    <td id="r4c3" bgcolor="#357efc"></td>
+    <td id="r4c4" bgcolor="#35adfc"></td>
+   
+  </table>
+
+  <p id="node"></p>
+  <script src="script.js"></script>
+</body>
+</html>
